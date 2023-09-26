@@ -76,23 +76,41 @@ Tipos de Datos: Primitivos
 // const edadPromedio = (edadEsteban + edadNarella) / 2;
 // console.log(edadEsteban, edadNarella, edadPromedio);
 
-// Template Literal
-const primerNombre = "Esteban";
-const trabajo = "Profesor";
-const cumpleaños = 1999;
-const actualidad = 2023;
+// TEMPLATE LITERAL
+// const primerNombre = "Esteban";
+// const trabajo = "Profesor";
+// const cumpleaños = 1999;
+// const actualidad = 2023;
 
-const esteban =
-  "I'm " +
-  primerNombre +
-  ", a " +
-  (actualidad - cumpleaños) +
-  " year old " +
-  trabajo;
+// const esteban =
+//   "I'm " +
+//   primerNombre +
+//   ", a " +
+//   (actualidad - cumpleaños) +
+//   " year old " +
+//   trabajo;
 
-console.log(esteban);
+// console.log(esteban);
 
-const estebanDavid = `I'm ${primerNombre}, a ${
-  actualidad - cumpleaños
-} year old ${trabajo}`;
-console.log(estebanDavid);
+// const estebanDavid = `I'm ${primerNombre}, a ${
+//   actualidad - cumpleaños
+// } year old ${trabajo}`;
+// console.log(estebanDavid);
+
+// IF / ELSE
+
+const edad = 12;
+const mayorDeEdad = edad >= 18;
+
+if (mayorDeEdad) {
+  console.log("Esteban tiene permitido tramitas la licencia de conducir 🚗");
+} else {
+  const edadRestante = 18 - edad;
+  console.log(
+    `Esteban todavia es menor, debe esperar ${edadRestante} años mas 🥰`
+  );
+}
+
+// CONVERSION DE TIPO Y COERCION DE TIPO:
+
+// CONVERSION DE TIPO: convertimos explicitamente un tipo de dato a otro.
