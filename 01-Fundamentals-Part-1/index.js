@@ -126,8 +126,8 @@ Tipos de Datos: Primitivos
 // console.log("23" - "10" - 3);
 // console.log("23" / 2);
 
-let n = "1" + 1; // "11"
-n = n - 1; // 11 - 1 = 10
+// let n = "1" + 1; // "11"
+// n = n - 1; // 11 - 1 = 10
 
 // console.log(n);
 
@@ -139,7 +139,7 @@ n = n - 1; // 11 - 1 = 10
 // console.log(Boolean("Esteban"));
 // console.log(Boolean({}));
 
-const dinero = 0;
+// const dinero = 0;
 
 // if (dinero) {
 //   console.log("Tienes dinero en tu cuenta, no lo gastes todo");
@@ -147,7 +147,7 @@ const dinero = 0;
 //   console.log("No tienes dinero, consigue un trabajo ya 😂");
 // }
 
-let altura;
+// let altura;
 
 // if (altura) {
 //   console.log("La variable altura esta definida");
@@ -157,8 +157,56 @@ let altura;
 
 // OPERADORES DE IGUALDAD : == VS ===
 
-const edad = 18;
+// const edad = 18;
 
-if (edad === 18) console.log("Ya sos mayor de edad (operador estricto)");
+// if (edad === 18) console.log("Ya sos mayor de edad (operador estricto)");
 
-if (edad == 18) console.log("Ya sos mayor de edad (operador flexible)");
+// if (edad == 18) console.log("Ya sos mayor de edad (operador flexible)");
+
+// OPERADORES LOGICOS : AND - OR - NOT(!)
+
+// const licenciaConducir = true; // A
+// const optimaVista = true; // B
+
+// console.log(licenciaConducir && optimaVista); // AND
+// console.log(licenciaConducir || optimaVista); // OR
+// console.log(!licenciaConducir); // NOT
+
+// if (licenciaConducir && optimaVista) {
+//   console.log("Esteban es apto para conducir");
+// } else {
+//   console.log("Esteban no esta apto para conducir");
+// }
+
+// const estaCansado = false;
+// // console.log(licenciaConducir && optimaVista && cansancio);
+
+// if (licenciaConducir && optimaVista && !estaCansado) {
+//   console.log("Esteban esta apto para conducir");
+// } else {
+//   console.log("Esteban no esta apto para conducir");
+// }
+
+// SWITCH STATEMENT
+
+const dia = "lunes";
+
+// switch (dia) {
+//   case "lunes":
+//     console.log("Es el primer día de la semana.");
+//     break;
+//   case "martes":
+//     console.log("Es el segundo día de la semana.");
+//     break;
+//   case "miércoles":
+//     console.log("Es el tercer día de la semana.");
+//     break;
+//   default:
+//     console.log("Es otro día de la semana.");
+// }
+
+const edad = 24;
+
+edad >= 18
+  ? console.log("Tiene permitido tomar bebidas alcoholicas")
+  : console.log("Aun es menor de edad para tomar alcohol");
