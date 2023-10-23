@@ -63,3 +63,29 @@
 // }
 
 // console.log(fruitProcessor(2, 4));
+
+// Estructura de datos - ARRAYS
+
+// // Declaramos un arreglo con corchetes
+// const amigos = ["Amigo1", "Amigo2", "Amigo3"];
+// console.log(amigos);
+// // Declaramos un array con la palabra reservada new Array
+// const years = new Array(1991, 1995, 1999);
+
+// // Buscamos en el arreglo la pocision indicada en este caso es el ultimo elemento que imprime
+// console.log(amigos[2]);
+
+// // Cambiamos el ultimo elemento y le asignamos nuevo valor.
+// amigos[2] = "amigo4";
+// console.log(amigos);
+
+// const primerNombre = "Esteban";
+// const esteban = [primerNombre, "Rodriguez", 2023 - 1999, "Estudiante", amigos];
+
+// console.log(esteban);
+
+const amigos = ["Michael", "Steven", "Peter"];
+
+// Metodos basicos en arreglos:
+
+// 1- push : agrega un elemento al final del arreglo.
