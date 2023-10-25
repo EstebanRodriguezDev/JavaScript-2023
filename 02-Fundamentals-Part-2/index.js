@@ -84,8 +84,35 @@
 
 // console.log(esteban);
 
-const amigos = ["Michael", "Steven", "Peter"];
+// const amigos = ["Michael", "Steven", "Peter"];
 
 // Metodos basicos en arreglos:
 
+// Agrega elementos
 // 1- push : agrega un elemento al final del arreglo.
+
+const amigos = ["Michael", "Steven", "Peter"];
+console.log(amigos);
+
+amigos.push("Alberto");
+console.log(amigos);
+
+// 2- unshift: Agrega un elemento al inicio del Array
+
+amigos.unshift("Juan");
+console.log(amigos);
+
+// Elimina elementos
+amigos.pop(); // Elimina el ultimo elemento
+console.log(amigos);
+
+amigos.shift(); // Elimina el primer elemento
+console.log(amigos);
+
+// Buscar un elemento en el array
+
+console.log(amigos.indexOf("Steve")); // En caso de no encontrar el elemento retorna -1.
+
+// Includes retorna un valor boleando dependiendo si encuentra o no el elemento indicado.
+console.log(amigos.includes("Steven")); // Retorna true
+console.log(amigos.includes("Steve")); // Retorna false
