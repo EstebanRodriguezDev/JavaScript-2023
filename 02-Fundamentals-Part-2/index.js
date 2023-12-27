@@ -91,28 +91,42 @@
 // Agrega elementos
 // 1- push : agrega un elemento al final del arreglo.
 
-const amigos = ["Michael", "Steven", "Peter"];
-console.log(amigos);
+// const amigos = ["Michael", "Steven", "Peter"];
+// console.log(amigos);
 
-amigos.push("Alberto");
-console.log(amigos);
+// amigos.push("Alberto");
+// console.log(amigos);
 
-// 2- unshift: Agrega un elemento al inicio del Array
+// // 2- unshift: Agrega un elemento al inicio del Array
 
-amigos.unshift("Juan");
-console.log(amigos);
+// amigos.unshift("Juan");
+// console.log(amigos);
 
-// Elimina elementos
-amigos.pop(); // Elimina el ultimo elemento
-console.log(amigos);
+// // Elimina elementos
+// amigos.pop(); // Elimina el ultimo elemento
+// console.log(amigos);
 
-amigos.shift(); // Elimina el primer elemento
-console.log(amigos);
+// amigos.shift(); // Elimina el primer elemento
+// console.log(amigos);
 
-// Buscar un elemento en el array
+// // Buscar un elemento en el array
 
-console.log(amigos.indexOf("Steve")); // En caso de no encontrar el elemento retorna -1.
+// console.log(amigos.indexOf("Steve")); // En caso de no encontrar el elemento retorna -1.
 
-// Includes retorna un valor boleando dependiendo si encuentra o no el elemento indicado.
-console.log(amigos.includes("Steven")); // Retorna true
-console.log(amigos.includes("Steve")); // Retorna false
+// // Includes retorna un valor boleando dependiendo si encuentra o no el elemento indicado.
+// console.log(amigos.includes("Steven")); // Retorna true
+// console.log(amigos.includes("Steve")); // Retorna false
+
+// Introduccion a Objetos: Propiedades (llaves) y valores. Las propiedades son nombre, apellido, edad y los valores son "Esteban", "Rodriguez".
+
+const persona = {
+  nombre: "Esteban",
+  apellido: "Rodriguez",
+  edad: 2023 - 1999,
+  trabajo: "Electricista",
+  amigos: ["Juan", "Alberto", "Rodrigo"],
+};
+
+console.log(persona);
+console.log(persona.trabajo);
+console.log(persona["trabajo"]);
