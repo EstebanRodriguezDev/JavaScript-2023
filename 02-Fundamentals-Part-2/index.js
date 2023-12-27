@@ -119,14 +119,54 @@
 
 // Introduccion a Objetos: Propiedades (llaves) y valores. Las propiedades son nombre, apellido, edad y los valores son "Esteban", "Rodriguez".
 
-const persona = {
-  nombre: "Esteban",
-  apellido: "Rodriguez",
-  edad: 2023 - 1999,
-  trabajo: "Electricista",
-  amigos: ["Juan", "Alberto", "Rodrigo"],
-};
+// const persona = {
+//   nombre: "Esteban",
+//   apellido: "Rodriguez",
+//   edad: 2023 - 1999,
+//   trabajo: "Electricista",
+//   amigos: ["Juan", "Alberto", "Rodrigo"],
+// };
 
-console.log(persona);
-console.log(persona.trabajo);
-console.log(persona["trabajo"]);
+// console.log(persona); // Accedemos al objeto completo con sus llaves y valores o propiedades y valores.
+// console.log(persona.trabajo); //Accedemos directamente a la propiedad del objeto.
+// console.log(persona["trabajo"]); // Se accede a la propiedad trabajo medienta la notacion de corchetes y aclarando el nombre de la propiedad como un string.
+
+// Metodos para los objetos.
+
+// const persona = {
+//   nombre: "Esteban",
+//   apellido: "Rodriguez",
+//   nacimiento: 1999,
+//   trabajo: "Electricista",
+//   amigos: ["Juan", "Alberto", "Rodrigo"],
+//   licenciaConducir: true,
+
+//   // calcularEdad: function () {
+//   //   return 2023 - this.nacimiento;
+//   // },
+//   calcularEdad: function () {
+//     this.age = 2023 - this.nacimiento;
+//     return this.age;
+//   },
+// };
+
+// console.log(persona.calcularEdad());
+
+// Bucle for
+
+// for (let rep = 0; rep <= 10; rep++) {
+//   // console.log(`Levantamiento de pesas: repeticion ${rep} 🏋️‍♂️`);
+// }
+
+// Recorrer arreglos con el bucle for
+const persona = [
+  "Esteban",
+  "Rodriguez",
+  1999,
+  "Electricista",
+  ["Juan", "Alberto", "Rodrigo"],
+  true,
+];
+for (let i = 0; i < persona.length; i++) {
+  console.log(persona[i]);
+}
